@@ -6,6 +6,6 @@
 // greeting(); // => Hello!
 
 // YOUR CODE BELOW
-
+function greeting(name) {}
 // Do not change the code below
 module.exports = { greeting };

@@ -8,6 +8,13 @@
 // doYouPlayTheTheremin('Scott'); // => true
 
 // YOUR CODE BELOW
+function doYouPlayTheTheremin(player) {
+  if (player[0] == "S" || player[0] == "s") {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };
